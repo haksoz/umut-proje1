@@ -10,7 +10,7 @@ Version: 1.0.0
 :root {
   --body: #fff;
   --black: #000;
-  --white: #00b3b1;
+  --white: #fff;
   --p1-clr: #0A6375;
   --p2-clr: #F7941E;
   --p3-clr: #ED145B;
@@ -2170,6 +2170,12 @@ iframe {
   position: relative;
   z-index: 9;
 }
+
+.footer-widgets-wrapper .row>* {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .footer-widgets-wrapper .single-footer-widget .widget-head {
   margin-bottom: 30px;
 }
@@ -2891,6 +2897,7 @@ iframe {
   border-bottom: 10px solid var(--p2-clr);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  background-color: #00b3b1;
 }
 @media (max-width: 1399px) {
   .header-2 {
@@ -5482,4 +5489,4 @@ input.main-search-input::placeholder {
 .ratting-area i {
   color: var(--p2-clr);
   font-size: 20px;
-}/*# sourceMappingURL=main.css.map */
+}
