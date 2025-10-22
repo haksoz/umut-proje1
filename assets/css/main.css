@@ -3655,7 +3655,7 @@ iframe {
 }
 .bannerv2-section {
   padding: 265px 0 180px;
-  background: url(../img/abanner/banner-2bg.png) no-repeat center center;
+  background: url( /doc/marmara-pediatri-background-v51.jpg) no-repeat center center;
   background-size: cover;
   z-index: 1;
 }
@@ -3666,10 +3666,11 @@ iframe {
   animation: lf 2s linear infinite;
 }
 .bannerv2-section .banner-shape {
-  position: absolute;
+  position: relative;
   right: -8px;
   bottom: -8px;
 }
+
 .bannerv2-section .banner-shadow {
   position: absolute;
   bottom: 0;
@@ -3689,7 +3690,7 @@ iframe {
     padding: 220px 0 170px;
   }
   .bannerv2-section .banner-shape {
-    position: absolute;
+    position: relative;
     right: -8px;
     bottom: -8px;
     width: 900px;
@@ -3704,7 +3705,7 @@ iframe {
     padding: 220px 0 150px;
   }
   .bannerv2-section .banner-shape {
-    position: absolute;
+    position: relative;
     right: -8px;
     bottom: -8px;
     width: 750px;
@@ -3719,7 +3720,7 @@ iframe {
     line-height: 63px;
   }
   .bannerv2-section .banner-shape {
-    position: absolute;
+    position: relative;
     right: -8px;
     bottom: -8px;
     width: 680px;
@@ -3738,11 +3739,11 @@ iframe {
     line-height: 55px;
   }
   .bannerv2-section .banner-shape {
-    position: absolute;
+    position: relative;
     right: -8px;
     bottom: -8px;
     width: 580px;
-    z-index: -1;
+    z-index: 5;
   }
   .bannerv2-section .banner-kyte {
     bottom: -80px;
@@ -3766,8 +3767,8 @@ iframe {
     right: -8px;
     bottom: -8px;
     width: 580px;
-    z-index: -1;
-    opacity: 0.4;
+    z-index: 5;
+    opacity: 1;
   }
   .bannerv2-section .banner-kyte {
     bottom: 0px;
@@ -3792,8 +3793,8 @@ iframe {
     right: -8px;
     bottom: -8px;
     width: 580px;
-    z-index: -1;
-    opacity: 0.2;
+    z-index: 5;
+    opacity: 1;
   }
   .bannerv2-section .banner-kyte {
     bottom: 0px;
