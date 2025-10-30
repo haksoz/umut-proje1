@@ -190,7 +190,7 @@ Version: 1.0.0
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
   font-weight: normal;
   line-height: 28px;
@@ -3652,14 +3652,14 @@ iframe {
   }
 }
 .bannerv2-section {
-  padding: 265px 0 180px;
+  padding: 265px 0 0px;
  /* background: url(/doc/marmara-pediatri-background-v51.jpg) no-repeat center center;  */
   background-size: cover;
   z-index: 1;
 }
 .bannerv2-section .banner-kyte {
   position: absolute;
-  bottom: 100px;
+  bottom: 0px;
   left: 40px;
   animation: lf 2s linear infinite;
 }
@@ -3679,39 +3679,39 @@ iframe {
 }
 .bannerv2-section .herov2-content .small-aregtengle {
   position: relative;
-  bottom: 18px;
+  bottom: 0px;
   left: 170px;
   animation: rots1 2s linear infinite;
 }
 @media (max-width: 1899px) {
   .bannerv2-section {
-    padding: 220px 0 170px;
+    padding: 220px 0 0px;
   }
   .bannerv2-section .banner-shape {
     position: relative;
     right: -8px;
-    bottom: -8px;
+    bottom: 0px;
     width: 900px;
   }
   .bannerv2-section .banner-kyte {
-    bottom: 40px;
+    bottom: 0px;
     left: -40px;
   }
 }
 @media (max-width: 1600px) {
   .bannerv2-section {
-    padding: 220px 0 150px;
+    padding: 220px 0 0px;
   }
   .bannerv2-section .banner-shape {
     position: relative;
     right: -8px;
-    bottom: -8px;
+    bottom: 0x;
     width: 750px;
   }
 }
 @media (max-width: 1399px) {
   .bannerv2-section {
-    padding: 190px 0 150px;
+    padding: 190px 0 0px;
   }
   .bannerv2-section .herov2-content h1 {
     font-size: 48px;
@@ -3720,17 +3720,17 @@ iframe {
   .bannerv2-section .banner-shape {
     position: relative;
     right: -8px;
-    bottom: -8px;
+    bottom: 0px;
     width: 680px;
   }
   .bannerv2-section .banner-kyte {
-    bottom: -80px;
+    bottom: 0px;
     left: -40px;
   }
 }
 @media (max-width: 1199px) {
   .bannerv2-section {
-    padding: 150px 0 150px;
+    padding: 150px 0 0px;
   }
   .bannerv2-section .herov2-content h1 {
     font-size: 42px;
@@ -3739,34 +3739,35 @@ iframe {
   .bannerv2-section .banner-shape {
     position: relative;
     right: -8px;
-    bottom: -8px;
+    bottom: 0px;
     width: 580px;
     z-index: 5;
   }
   .bannerv2-section .banner-kyte {
-    bottom: -80px;
+    bottom: 0px;
     left: -40px;
   }
 }
 @media (max-width: 991px) {
   .bannerv2-section {
-    padding: 150px 0 150px;
+    padding: 150px 0 0px;
   }
   .bannerv2-section .herov2-content h1 {
     font-size: 42px;
     line-height: 55px;
   }
   .bannerv2-section .herov2-content .small-aregtengle {
-    bottom: 18px;
+    bottom: 0px;
     left: 150px;
     width: 60px;
   }
   .bannerv2-section .banner-shape {
-    right: -8px;
-    bottom: -8px;
-    width: 580px;
+    right: 0px;
+    bottom: 0px;
+    width: 80%;
     z-index: 5;
     opacity: 1;
+    position: relative;
   }
   .bannerv2-section .banner-kyte {
     bottom: 0px;
@@ -3776,7 +3777,7 @@ iframe {
 }
 @media (max-width: 767px) {
   .bannerv2-section {
-    padding: 140px 0 150px;
+    padding: 140px 0 0px;
   }
   .bannerv2-section .herov2-content h1 {
     font-size: 42px;
@@ -3802,7 +3803,7 @@ iframe {
 }
 @media (max-width: 500px) {
   .bannerv2-section {
-    padding: 140px 0 150px;
+    padding: 140px 0 0px;
   }
   .bannerv2-section .herov2-content h1 {
     font-size: 36px;
@@ -4920,9 +4921,27 @@ input.main-search-input::placeholder {
 }
 
 .pricing-items {
-  box-shadow: -20px 4.8px 24.4px -6px rgba(19, 16, 34, 0.1);
-  transition: all 0.4s;
-  border-radius: 10px;
+    box-shadow: -20px 4.8px 24.4px -6px rgba(19, 16, 34, 0.1);
+    transition: all 0.4s;
+    border-radius: 10px;
+    border: 1px solid #ffdfc7;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(255, 223, 199);
+    border-right-color: rgb(255, 223, 199);
+    border-bottom-color: rgb(255, 223, 199);
+    border-left-color: rgb(255, 223, 199);
+    border-image-source: initial;
+    border-image-slice: initial;
+       border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
 }
 .pricing-items .pricing-head {
   color: var(--black);
